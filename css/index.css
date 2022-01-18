@@ -1,0 +1,229 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Abril Fatface", cursive;
+}
+
+/* .container for whole website background  */
+.container {
+  background-image: url("/img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 1100px;
+  /* border: 2px solid red; */
+}
+
+/* .logo for left side logo */
+.logo {
+  display: inline-block;
+  /* border: 2px #008000 solid; */
+  margin: 0px -11px;
+  width: 300px;
+}
+.logo img {
+  display: inline-block;
+  height: 100px;
+  padding: 5px;
+}
+.logo h1 {
+  position: absolute;
+  top: 24px;
+  left: 103px;
+  display: inline-block;
+  font-family: "Abril Fatface", cursive;
+  font-weight: bold;
+  color: azure;
+  text-transform: capitalize;
+}
+
+/* .navbar for navigation bar  */
+.navbar {
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  right: 20px;
+  /* border: 2px white solid; */
+  margin: 20px;
+  text-align: right;
+  width: 500px;
+}
+
+.navbar li {
+  display: inline-block;
+  width: 120px;
+  margin: 0px 0px;
+}
+
+.navbar li a {
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 20px;
+  color: aliceblue;
+  font-family: "Lobster", cursive;
+  text-transform: capitalize;
+  pointer-events: stroke;
+}
+
+.navbar li a:hover {
+  color: yellow;
+  font-family: "Abril Fatface", cursive;
+}
+
+/* login for login panal  */
+.login {
+  top: 230px;
+  left: 200px;
+  border-radius: 45px;
+  box-shadow: 34px 32px 60px -2px rgb(0, 30, 255);
+  position: absolute;
+  /* border: 2px gray solid; */
+  height: 550px;
+  width: 400px;
+  background-image: url("/img/login.jpg");
+  background-repeat: no-repeat;
+  opacity: 0.9;
+  background-size: 582px 550px;
+}
+
+/* .loginbox for box aside on login panal */
+.loginbox {
+  /* border: 2px solid white; */
+  border-radius: 10px;
+  height: 434px;
+  width: 313px;
+  margin: 15% auto;
+  background-color: rgba(7, 7, 46, 0.686);
+  background-repeat: no-repeat;
+  background-size: 420px 444px;
+  opacity: 0.9;
+  border-right: 4px solid #ff00c8;
+  border-bottom: 4px solid #ff00c8;
+  border-top: 3px solid white;
+  border-left: 3px solid white;
+
+  box-shadow: 34px 32px 60px -2px rgb(0, 110, 255);
+}
+
+.logintext {
+  /* border: 2px white solid; */
+  /* margin: 20px auto; */
+  height: 50px;
+  padding: 2px 2px;
+  padding-top: 12px;
+  text-align: right;
+  color: white;
+  font-size: 20px;
+}
+.logintext h2 {
+  font-family: "Abril Fatface", cursive;
+  font-weight: bold;
+}
+.label {
+  color: white;
+  font-family: "Lobster";
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+.user {
+  /* border: 2px white solid; */
+  width: 244px;
+  margin: 30px auto;
+  height: 50px;
+}
+
+.bar {
+  color: white;
+  width: 100%;
+  height: 45px;
+  border-left: 4px solid #ff00ff;
+  border-top: 4px solid #ff00ff;
+  border-bottom: 3px solid white;
+  border-right: 3px solid white;
+  background-color: rgba(0, 6, 92, 0.802);
+}
+
+.pswd {
+  /* border: 2px white solid; */
+  width: 244px;
+  margin: 40px auto;
+  height: 50px;
+}
+
+.btn {
+  /* border: 2px white solid; */
+  width: 244px;
+  margin: 40px auto;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.btn button {
+  color: white;
+  background-color: #00007e;
+  width: 104px;
+  height: 33px;
+  border-radius: 9px;
+  border: 3px #ff4af6 solid;
+}
+
+.forget {
+  /* border: 2px white solid; */
+  padding: 2px 2px;
+  padding-top: 12px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+.forget a {
+  text-decoration: none;
+  color: wheat;
+  font-size: 26px;
+  font-family: serif;
+}
+
+/* .style for style image */
+.style {
+  position: absolute;
+  right: 230px;
+  top: 230px;
+
+  box-shadow: 34px 32px 60px -2px #0ff;
+  border-radius: 45px;
+  /* border: 1px solid #def50d; */
+  height: 650px;
+  width: 400px;
+  background-image: url("/img/side.jpg");
+  background-repeat: no-repeat;
+  background-size: 660px 650px;
+  opacity: 0.8;
+}
+
+/* .sidenav for fixed navigation */
+.sidenav {
+  position:fixed ;
+  /* border: 2px white solid ; */
+  width:65px;
+  right: 5px;
+  top: 25%;
+  bottom: 25%;
+
+
+}
+
+.sidenav img {
+  display: block;
+  height: 45px;
+  margin: 25px auto;
+  pointer-events: painted;
+}
+
+/* fotter css  */
+.footer{
+  border: 2px white solid; 
+  height: 100px; 
+  background-color: rgba(0, 0, 0, 0.405);
+  bottom: 1px;
+}
