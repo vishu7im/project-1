@@ -7,7 +7,7 @@
 
 /* .container for whole website background  */
 .container {
-  background-image: url("/img/bg.jpg");
+  background-image: url("../img/bg.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: 1100px;
@@ -80,7 +80,7 @@
   /* border: 2px gray solid; */
   height: 550px;
   width: 400px;
-  background-image: url("/img/login.jpg");
+  background-image: url("../img/login.jpg");
   background-repeat: no-repeat;
   opacity: 0.9;
   background-size: 582px 550px;
@@ -195,7 +195,7 @@
   /* border: 1px solid #def50d; */
   height: 650px;
   width: 400px;
-  background-image: url("/img/side.jpg");
+  background-image: url("../img/side.jpg");
   background-repeat: no-repeat;
   background-size: 660px 650px;
   opacity: 0.8;
