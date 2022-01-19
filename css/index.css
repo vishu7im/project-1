@@ -1,83 +1,81 @@
 * {
-  padding: 0px;
   margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
   font-family: "Abril Fatface", cursive;
 }
 
-/* .container for whole website background  */
-.container {
+body {
   background-image: url("../img/bg.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  height: 1100px;
-  /* border: 2px solid red; */
 }
 
-/* .logo for left side logo */
+/* header css  */
+header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* logo css  */
 .logo {
-  display: inline-block;
-  /* border: 2px #008000 solid; */
-  margin: 0px -11px;
-  width: 300px;
+  display: flex;
+  border: 2px solid white;
+  justify-items: center;
 }
 .logo img {
-  display: inline-block;
+  border: 2px blue solid;
   height: 100px;
-  padding: 5px;
-}
-.logo h1 {
-  position: absolute;
-  top: 24px;
-  left: 103px;
-  display: inline-block;
-  font-family: "Abril Fatface", cursive;
-  font-weight: bold;
-  color: azure;
-  text-transform: capitalize;
 }
 
-/* .navbar for navigation bar  */
+/* navigation bar css  */
 .navbar {
-  display: inline-block;
-  position: absolute;
-  top: 0px;
-  right: 20px;
-  /* border: 2px white solid; */
-  margin: 20px;
-  text-align: right;
-  width: 500px;
+  display: flex;
+  justify-content: end;
+  border: 2px solid white;
+  flex-grow: 2;
+  /* flex-shrink: 10; */
 }
 
 .navbar li {
   display: inline-block;
-  width: 120px;
-  margin: 0px 0px;
+  /* border: 1px white solid; */
+  margin: 0px 20px;
 }
 
 .navbar li a {
-  font-weight: bold;
-  text-decoration: none;
-  font-size: 20px;
   color: aliceblue;
+  text-decoration: none;
   font-family: "Lobster", cursive;
   text-transform: capitalize;
-  pointer-events: stroke;
+  font-size: 15px;
+  font-weight: bold;
 }
-
 .navbar li a:hover {
   color: yellow;
   font-family: "Abril Fatface", cursive;
 }
 
+
+
+
+main{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
 /* login for login panal  */
 .login {
-  top: 230px;
-  left: 200px;
-  border-radius: 45px;
-  box-shadow: 34px 32px 60px -2px rgb(0, 30, 255);
-  position: absolute;
   /* border: 2px gray solid; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 25px;
+  box-shadow: 34px 32px 60px -2px rgb(0, 30, 255);
   height: 550px;
   width: 400px;
   background-image: url("../img/login.jpg");
@@ -88,11 +86,9 @@
 
 /* .loginbox for box aside on login panal */
 .loginbox {
-  /* border: 2px solid white; */
+  height: 489px;
+  width: 328px;
   border-radius: 10px;
-  height: 434px;
-  width: 313px;
-  margin: 15% auto;
   background-color: rgba(7, 7, 46, 0.686);
   background-repeat: no-repeat;
   background-size: 420px 444px;
@@ -101,7 +97,6 @@
   border-bottom: 4px solid #ff00c8;
   border-top: 3px solid white;
   border-left: 3px solid white;
-
   box-shadow: 34px 32px 60px -2px rgb(0, 110, 255);
 }
 
@@ -186,10 +181,7 @@
 
 /* .style for style image */
 .style {
-  position: absolute;
-  right: 230px;
-  top: 230px;
-
+  flex-shrink: 5;
   box-shadow: 34px 32px 60px -2px #0ff;
   border-radius: 45px;
   /* border: 1px solid #def50d; */
@@ -215,15 +207,7 @@
 
 .sidenav img {
   display: block;
-  height: 45px;
+  height: 30px;
   margin: 25px auto;
   pointer-events: painted;
-}
-
-/* fotter css  */
-.footer{
-  border: 2px white solid; 
-  height: 100px; 
-  background-color: rgba(0, 0, 0, 0.405);
-  bottom: 1px;
 }
