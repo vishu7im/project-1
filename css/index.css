@@ -247,7 +247,6 @@ footer .social > a img {
   border-radius: 50%;
   border: 1px solid #ccc;
   margin: 8px;
-  
 }
 
 footer .social > a img:hover {
@@ -268,4 +267,14 @@ footer .copyright {
   height: 30px;
   margin: 25px auto;
   pointer-events: painted;
+}
+
+.author {
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: right;
+  text-transform: capitalize;
 }
