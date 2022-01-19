@@ -21,11 +21,11 @@ header {
 /* logo css  */
 .logo {
   display: flex;
-  border: 2px solid white;
+  /* border: 2px solid white; */
   justify-items: center;
 }
 .logo img {
-  border: 2px blue solid;
+  /* border: 2px blue solid; */
   height: 100px;
 }
 
@@ -33,7 +33,7 @@ header {
 .navbar {
   display: flex;
   justify-content: end;
-  border: 2px solid white;
+  /* border: 2px solid white; */
   flex-grow: 2;
   /* flex-shrink: 10; */
 }
@@ -41,7 +41,7 @@ header {
 .navbar li {
   display: inline-block;
   /* border: 1px white solid; */
-  margin: 0px 20px;
+  margin: 10px 10px;
 }
 
 .navbar li a {
@@ -49,7 +49,7 @@ header {
   text-decoration: none;
   font-family: "Lobster", cursive;
   text-transform: capitalize;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: bold;
 }
 .navbar li a:hover {
@@ -57,15 +57,11 @@ header {
   font-family: "Abril Fatface", cursive;
 }
 
-
-
-
-main{
+main {
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-
 }
 /* login for login panal  */
 .login {
@@ -195,14 +191,76 @@ main{
 
 /* .sidenav for fixed navigation */
 .sidenav {
-  position:fixed ;
+  position: fixed;
   /* border: 2px white solid ; */
-  width:65px;
+  width: 65px;
   right: 5px;
   top: 25%;
   bottom: 25%;
+}
 
+/* footer  */
+footer {
+  padding: 40px 0;
+  background-color: #1c04b923;
+  color: #4b4c4d;
+  border-radius: 20px;
+}
 
+footer ul {
+  /* border: rgb(255, 255, 255) solid 1px ; */
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+footer li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+footer ul a {
+  color: rgb(0, 217, 255);
+  text-decoration: none;
+  opacity: 1;
+}
+
+footer ul a:hover {
+  opacity: 1;
+  color: #4b4c4d;
+}
+
+footer .social {
+  /* border: 1px solid wheat; */
+  text-align: center;
+  padding-bottom: 1px;
+}
+
+footer .social > a img {
+  width: 40px;
+  height: 40px;
+  /* display: inline-block; */
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin: 8px;
+  
+}
+
+footer .social > a img:hover {
+  opacity: 0.5;
+}
+
+footer .copyright {
+  /* border: 1px wheat solid; */
+  margin-top: 2px;
+  text-align: left;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 0;
 }
 
 .sidenav img {
