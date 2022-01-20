@@ -39,6 +39,7 @@ header {
 }
 
 .navbar li {
+
   display: inline-block;
   /* border: 1px white solid; */
   margin: 10px 10px;
@@ -49,12 +50,14 @@ header {
   text-decoration: none;
   font-family: "Lobster", cursive;
   text-transform: capitalize;
-  font-size: 18px;
+  font-size: 1em;
   font-weight: bold;
+  transition: all 1s ease 0.1s;
 }
 .navbar li a:hover {
   color: yellow;
   font-family: "Abril Fatface", cursive;
+  font-size: 1.5em;
 }
 
 main {
@@ -183,18 +186,21 @@ main {
   /* border: 1px solid #def50d; */
   height: 650px;
   width: 400px;
-  background-image: url("../img/side.jpg");
+  background-image: url("https://source.unsplash.com/collection/coding/");
   background-repeat: no-repeat;
   background-size: 660px 650px;
   opacity: 0.8;
 }
-@media only screen and (max-width:500px) {
-
-  .style{
+@media only screen and (max-width: 500px) {
+  .style {
     display: none;
   }
+  .navbar {
+    
+    justify-content: left;
     
   }
+}
 /* .sidenav for fixed navigation */
 .sidenav {
   position: fixed;
@@ -205,12 +211,10 @@ main {
   bottom: 25%;
 }
 
-@media only screen and (max-width:500px) {
-
-.sidenav{
-  display: none;
-}
-  
+@media only screen and (max-width: 500px) {
+  .sidenav {
+    display: none;
+  }
 }
 
 /* footer  */
