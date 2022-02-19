@@ -1,140 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>home</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lobster&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lobster&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="css/index.css" />
-  </head>
-  <body>
-    <header>
-      <!-- .logo for left side logo  -->
-      <div class="logo">
-        <img src="img/logo.png" alt="this is logo " />
-      </div>
+</head>
 
-      <!-- .navbar for navigation bar  -->
-      <div class="navbar">
-        <ul>
-          <li><a href="#">home</a></li>
-          <li><a href="#">product</a></li>
-          <li><a href="#">about us</a></li>
-          <li><a href="#">contact*</a></li>
-        </ul>
-      </div>
+<body>
+    <header>
+        <!-- .logo for left side logo  -->
+        <div class="logo">
+            <img src="img/logo.png" alt="this is logo " />
+        </div>
+
+        <img src="img/menu.svg" id="ham" alt="menu">
+        <img src="img/x-circle.svg" alt="cross " id="hamcross">
+        <!-- .navbar for navigation bar  -->
+        <div class="navbar">
+            <ul id="menu">
+                <li><a href="#">home</a></li>
+                <li><a href="#">product</a></li>
+                <li><a href="#">about us</a></li>
+                <li><a href="#">contact*</a></li>
+            </ul>
+        </div>
     </header>
 
     <main>
-      <!-- login for login panal  -->
-      <div class="login">
-        <!-- .loginbox for box in login panal -->
-        <div class="loginbox">
-          <form action="#">
-            <!-- .logintext for heading of form  -->
-            <div class="logintext">
-              <h2>Mamber's Login</h2>
-            </div>
+        <!-- login for login panal  -->
+        <div class="login">
+            <!-- .loginbox for box in login panal -->
+            <div class="loginbox">
+                <form action="#">
+                    <!-- .logintext for heading of form  -->
+                    <div class="logintext">
+                        <h2>Mamber's Login</h2>
+                    </div>
 
-            <!-- .user for username  -->
-            <div class="user">
-              <label for="user" class="label">&#128521; Username</label>
-              <input
-                type="text"
-                name="user"
-                id="user"
-                class="bar"
-                placeholder="&#128521; Username"
-              />
-            </div>
+                    <!-- .user for username  -->
+                    <div class="user">
+                        <label for="user" class="label">&#128521; Username</label>
+                        <input type="text" name="user" id="user" class="bar" placeholder="&#128521; Username" />
+                    </div>
 
-            <!-- .pswd for pswd -->
-            <div class="pswd">
-              <label for="pswd" class="label">&#128272; Password</label>
-              <input
-                type="password"
-                name="pswd"
-                id="pswd"
-                class="bar"
-                placeholder="&#128272;Password"
-              />
-            </div>
+                    <!-- .pswd for pswd -->
+                    <div class="pswd">
+                        <label for="pswd" class="label">&#128272; Password</label>
+                        <input type="password" name="pswd" id="pswd" class="bar" placeholder="&#128272;Password" />
+                    </div>
 
-            <!-- btn for signin button -->
-            <div class="btn">
-              <input type="checkbox" name="remeber" id="remeber" />
-              <label for="remeber" class="label">Remember me </label>
+                    <!-- btn for signin button -->
+                    <div class="btn">
+                        <input type="checkbox" name="remeber" id="remeber" />
+                        <label for="remeber" class="label">Remember me </label>
 
-              <button type="submit">Sign In</button>
-            </div>
+                        <button type="submit">Sign In</button>
+                    </div>
 
-            <div class="forget label">
-              <a href="#">--Forget--</a>
+                    <div class="forget label">
+                        <a href="#">--Forget--</a>
+                    </div>
+                </form>
             </div>
-          </form>
         </div>
-      </div>
 
-      <!-- .style for style image  -->
-      <div class="style">
-         
-      <p></p>
-        
+        <!-- .style for style image  -->
+        <div class="style">
+
+            <p></p>
 
 
 
-      </div>
 
-      <!-- .sidenav for fixed navigation   -->
-      <div class="sidenav">
-        <a href="http://github.com/vishu7im" target="_blank"
-          ><img src="img/github.png" alt="github"
-        /></a>
-        <a href="https://www.instagram.com/v.ishu.m/?hl=en" target="_blank"
-          ><img src="img/insta.png" alt="instagram"
-        /></a>
-        <a href="https://twitter.com/vishu7im?lang=en" target="_blank"
-          ><img src="img/twiter.png" alt="twitter"
-        /></a>
-        <a href="#" target="_blank"><img src="img/fb.png" alt="facebook" /></a>
-      </div>
+        </div>
+
+        <!-- .sidenav for fixed navigation   -->
+        <div class="sidenav">
+            <a href="http://github.com/vishu7im" target="_blank"><img src="img/github.png" alt="github" /></a>
+            <a href="https://www.instagram.com/v.ishu.m/?hl=en" target="_blank"><img src="img/insta.png" alt="instagram" /></a>
+            <a href="https://twitter.com/vishu7im?lang=en" target="_blank"><img src="img/twiter.png" alt="twitter" /></a>
+            <a href="#" target="_blank"><img src="img/fb.png" alt="facebook" /></a>
+        </div>
     </main>
     <footer>
-      <ul class="list-inline">
-        <li class="list-inline-item"><a href="#">Home</a></li>
-        <li class="list-inline-item"><a href="#">Services</a></li>
-        <li class="list-inline-item"><a href="#">About</a></li>
-        <li class="list-inline-item"><a href="#">Terms</a></li>
-        <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
-      </ul>
-      <div class="social">
-        <a href="http://github.com/vishu7im" target="_blank"
-        ><img src="img/github.png" alt="github"
-      /></a>
-      <a href="https://www.instagram.com/v.ishu.m/?hl=en" target="_blank"
-        ><img src="img/insta.png" alt="instagram"
-      /></a>
-      <a href="https://twitter.com/vishu7im?lang=en" target="_blank"
-        ><img src="img/twiter.png" alt="twitter"
-      /></a>
-      <a href="#" target="_blank"><img src="img/fb.png" alt="facebook" /></a>
-      </div>
-      <p class="copyright">Company Name © 2022</p>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="#">Home</a></li>
+            <li class="list-inline-item"><a href="#">Services</a></li>
+            <li class="list-inline-item"><a href="#">About</a></li>
+            <li class="list-inline-item"><a href="#">Terms</a></li>
+            <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+        </ul>
+        <div class="social">
+            <a href="http://github.com/vishu7im" target="_blank"><img src="img/github.png" alt="github" /></a>
+            <a href="https://www.instagram.com/v.ishu.m/?hl=en" target="_blank"><img src="img/insta.png" alt="instagram" /></a>
+            <a href="https://twitter.com/vishu7im?lang=en" target="_blank"><img src="img/twiter.png" alt="twitter" /></a>
+            <a href="#" target="_blank"><img src="img/fb.png" alt="facebook" /></a>
+        </div>
+        <p class="copyright">Company Name © 2022</p>
     </footer>
 
 
     <P class="author">author : vishal munday</P>
-  </body>
+
+    <script src="js/index.js"></script>
+</body>
+
 </html>
